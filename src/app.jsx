@@ -1,8 +1,5 @@
 import TopNav from './components/TopNav/TopNav';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 
-var app = function () {
-
-return (
-
-	<TopNav />)
-}
+ReactDOM.render( <TopNav />, document.getElementById('app'));
